@@ -1,0 +1,27 @@
+.square {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 1em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hide-span {
+    display: none;
+
+}
+.show-span{
+    display: inline;
+    color: red;
+}
+
+#square-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
