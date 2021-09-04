@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM DOM DOM</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM DOM DOM</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-  
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script src="app.js"></script> -->
+
 </head>
-<body>
-    
 
+<body>
+
+  <button onclick="myFunction()">Please click for information for this activity</button>
+  <script>
+    function myFunction() {
+      alert("Welcome to the Document Object Model (DOM) \n\n\u2022 Everytime the square button is clicked, another square should appear horizontally on the page.\n\n\u2022 When hovering over a square, the square's id should display centered in the square, and disappear when the cursor is no longer over the square.\n\n\u2022 When a square is clicked, it should change to a random background color.\n\n\u2022 When a square is double clicked the following should occur:\n\n\tIf the id of the square is EVEN: the square after the clicked\t\n\tsquare should be removed from the page.\n\n\tIf there isn't a square after the clicked square,display an alert\n\tindicating.\n\n\tIf the id of the square is ODD: The square before the clicked \n\tsquare should be removed from the page.\n\n\tIf there isn't a square before the clicked square, display an \n\talert indicating so.");
+    }
+  </script>
+
+
+  <script src="app.js"></script>
 </body>
+
 </html>
